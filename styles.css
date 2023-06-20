@@ -464,6 +464,15 @@ select {
   animation: rotate 600ms infinite linear;
 }
 
+.books__loading--spinner {
+  display: none !important;
+}
+
+.books__loading .books__loading--spinner {
+  display: block !important;
+}
+
+
 @keyframes rotate {
   0% {
     transform: rotate(0);
